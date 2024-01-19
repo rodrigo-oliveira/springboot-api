@@ -20,10 +20,10 @@ public class Medico {
     private String email;
     private String crm;
 
-    private String telefone;
-
     @Enumerated(EnumType.STRING)
     private Especialidade especialidade;
+
+    private String telefone;
 
     @Embedded
     private Endereco endereco;

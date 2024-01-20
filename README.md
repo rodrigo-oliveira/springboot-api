@@ -55,3 +55,6 @@ Payload:
     }
 }
 ```
+
+#### Recuperar lista de médicos: (parâmetros opcionais de paginação)
+GET: http://localhost:8080/medicos?tamanho=5&pagina=1&ordem=email,desc
